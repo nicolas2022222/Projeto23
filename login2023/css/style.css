@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    height: 5rem;
+}
+
+body {
+    background-image: url(../img/fundo.png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 80px;
+    margin-bottom: 3rem;
+}
+
+.card {
+    opacity: 0.8;
+    margin-top: 50px;
+}
+
+.color {
+    background-color: darkgreen;
+}
+
+.sidenav {
+    height: 100%;
+    width:  160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #3C573D;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+ 
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+  }
+ 
+  .sidenav a:hover {
+    color: #818181;
+  }
+ 
+  .main {
+    margin-left: 160px; 
+    font-size: 28px; 
+    padding: 0px 10px;
+  }
+ 
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
